@@ -19,4 +19,5 @@ public class UserController {
     public UserResponse getUser(@PathVariable("id") Long id) throws NotFoundException {
         return userService.getUser(id);
     }
+
 }
