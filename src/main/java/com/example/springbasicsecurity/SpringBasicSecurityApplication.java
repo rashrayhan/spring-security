@@ -24,7 +24,7 @@ public class SpringBasicSecurityApplication {
                 new User(1L, "abdul", "pass1", "abdul@gmail.com"),
                 new User(2L, "rasheed", "pass1", "rasheed@gmail.com"),
                 new User(3L, "sewa", "pass1", "sewa@gmail.com"),
-                new User(4L, "jaan", "pass1", "jaan@gmail.com")
+                new User(4L, "test", "pass1", "jaan@gmail.com")
         );
 
         userRepository.saveAll(users);
